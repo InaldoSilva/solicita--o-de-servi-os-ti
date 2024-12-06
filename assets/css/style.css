@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin: 5rem auto;
+    position: relative;
+    z-index: 0;
+}
+
+.background #bg {
+    width: 600px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menu {
+    position: fixed;
+    z-index: 1;
+    margin: -5rem auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-item {
+    cursor: pointer;
+    transition: 1s ease all;
+    &:hover {
+        border-bottom: #EA7B13 1px solid;
+    }
+}
+
+#suporte-img {
+    width: 200px;
+    position: relative;
+    z-index: 0;
+    top: -6rem;
+}
+
+.ajuda {
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+}
+
+#ajuda-img {
+    width: 400px;
+}
+
+.ft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #203C80;
+    color: white;
+    position: relative;
+    bottom: -7.7rem;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        margin: 5rem auto;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .background #bg {
+        width: 340px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .menu {
+        position: fixed;
+        z-index: 1;
+        margin: -4.5rem auto;
+        width: 100%;
+    }
+    
+    .nav-item {
+        cursor: pointer;
+        transition: 1s ease all;
+        &:hover {
+            border-bottom: #EA7B13 1px solid;
+        }
+    }
+    
+    #suporte-img {
+        width: 150px;
+        position: relative;
+        z-index: 0;
+        top: -3rem;
+    }
+    
+    .ajuda {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    #ajuda-img {
+        width: 300px;
+    }
+}
