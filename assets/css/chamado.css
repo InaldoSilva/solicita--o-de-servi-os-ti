@@ -47,6 +47,8 @@
 }
 
 .buttons a {
+    width: 100%;
+    text-align: center;
     color: #203C80;
     &:hover {
         text-decoration: none;
