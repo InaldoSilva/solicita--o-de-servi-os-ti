@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.buttons {
+/*.buttons {
     width: 120px;
     height: 40px;
     display: flex;
@@ -58,6 +58,15 @@
 
 .buttons a img {
     z-index: 0;
+} */
+
+
+
+#voltar img {
+    width: 100px;
+    position: relative;
+    left: 46%;
+    bottom: 1.2rem;
 }
 
 .ft {
