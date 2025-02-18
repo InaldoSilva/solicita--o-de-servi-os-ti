@@ -42,7 +42,7 @@
     margin: -1rem auto 2rem;
     &:hover {
         cursor: pointer;
-        background-color: #EA7B13;
+        background-color: #ea7b1370;
     }
 }
 

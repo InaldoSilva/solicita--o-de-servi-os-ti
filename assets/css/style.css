@@ -38,6 +38,7 @@ html {
 .nav-item {
     cursor: pointer;
     transition: 1s ease all;
+    gap: 10PX;
     &:hover {
         background-color: #ea7b13e0;
         border: #EA7B13 1px solid;
