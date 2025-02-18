@@ -55,6 +55,10 @@
     }
 }
 
+.buttons a img {
+    z-index: 0;
+}
+
 .ft {
     display: flex;
     flex-direction: column;
