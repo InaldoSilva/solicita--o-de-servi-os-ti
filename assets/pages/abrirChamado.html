@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,17 @@
     <!--Css-->
     <link rel="stylesheet" href="../css/chamado.css">
     <!--Bootstrap Css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="menu">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html">Início</a>
+                <a class="nav-link" href="/index.html">Início</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/assets/pages/solicitarEquipamento.html">Solicitar equipamento</a>
-            </li>
-          </ul>
+        </ul>
     </div>
 
     <div class="background">
@@ -29,19 +29,65 @@
     <!--<div class="buttons">
         <a href="/index.html"><img src="../img/voltar.png" alt="" style="width: 100px;"></a>
     </div>-->
-    <a href="/index.html" id="voltar"><img src="https://fontmeme.com/permalink/250218/e091d8a5bb16b45b047a444af103ffac.png" alt="cocomat-font" border="0"></a>
+    <a href="/index.html" id="voltar"><img
+            src="https://fontmeme.com/permalink/250218/e091d8a5bb16b45b047a444af103ffac.png" alt="cocomat-font"
+            border="0"></a>
     <div class="formulario">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezwAlIb35xfIkwJnJJx6-1AYBBiFP3goUMMVL7iYFC9_2Ilg/viewform?embedded=true" width="840" height="1155" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <form action="https://formsubmit.co/nsifgpiedade@gmail.com" method="POST" enctype="multipart/form-data">
+            <img src="/assets/img/preencha.png" alt="" style="width: 300px; margin-bottom: 2rem;">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Identificação</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Em que Lab você está?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>LAB 1</option>
+                    <option>LAB 2</option>
+                    <option>LAB 3</option>
+                    <option>LAB 4</option>
+                    <option>LAB 5</option>
+                    <option>LAB 7</option>
+                    <option>LAB DE CRIAÇÃO</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">Deseja suporte para</label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>Computador</option>
+                    <option>Projetor</option>
+                    <option>Internet</option>
+                    <option>Software</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Descreva o Problema</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="img-send">
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div> <hr>
+            <input type="submit" id="send" value="Enviar solicitação" class="btn btn-primary">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
     </div>
 </body>
 <!--Bootstrap js-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<script src="/assets/js/appMail.js"></script>
 <footer class="rodape">
     <div class="ft">
-       <p> &copy; NSI Unifg - Piedade 2024</p>
+        <p> &copy; NSI Unifg - Piedade 2024</p>
     </div>
 </footer>
+
 </html>
