@@ -29,6 +29,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 /*.buttons {
@@ -76,7 +77,11 @@
     align-items: center;
     width: 100vw;
     height: 200px;
-    background-color: #203C80;
+    background: #d4612c;
+    background: -webkit-linear-gradient(350deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
+    background: -moz-linear-gradient(350deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
+    background: linear-gradient(350deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#D4612C", endColorstr="#203C80", GradientType=0);
     color: white;
 }
 
@@ -119,6 +124,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100vw;
     }
 
     .formulario iframe {
