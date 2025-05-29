@@ -5,9 +5,44 @@
     align-items: center;
     width: 100%;
     height: 300px;
-    margin: 0 auto;
+    margin: 3rem auto;
     position: relative;
     z-index: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: auto;
+    width: 100%;
+    height: auto;
+
+    background: #d4612c;
+    background: -webkit-linear-gradient(169deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
+    background: -moz-linear-gradient(169deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
+    background: linear-gradient(169deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#D4612C", endColorstr="#203C80", GradientType=0);
+}
+
+.nav-item {
+    cursor: pointer;
+    transition: 1s ease all;
+    gap: 15px;
+    width: auto;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    &:hover {
+        color: #ffb866;
+    }
 }
 
 .background #bg {
@@ -67,7 +102,7 @@
     width: 100px;
     position: relative;
     left: 46%;
-    bottom: 1.2rem;
+    bottom: 3.2rem;
 }
 
 .ft {
