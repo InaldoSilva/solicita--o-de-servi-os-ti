@@ -104,6 +104,9 @@ html {
 }
 
 @media screen and (min-width: 320px) and (max-width:767px) {
+    body {
+        height: 100vh;
+    }
     .background {
         display: flex;
         flex-direction: column;
@@ -135,7 +138,7 @@ html {
     .nav-item a {
         text-decoration: none;
         color: white;
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     #logo-anima {
