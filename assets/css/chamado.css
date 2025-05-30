@@ -165,21 +165,25 @@
         left: 38%;
         bottom: 3.2rem;
     }
+
+    .img-fluid {
+        width: 300px !important;
+        margin: 0 1rem;
+    }
     
     .formulario {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
     }
 
-    .formulario iframe {
-        width: 320px;
-        height: 1500px;
+    .formulario input, #exampleFormControlSelect1, #exampleFormControlTextarea1 {
+    width: 90%;
     }
 
-    .buttons {
-        width: 160px;
+    #send {
+        margin: 0 1.2rem;
     }
 }
