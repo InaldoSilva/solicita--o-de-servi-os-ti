@@ -40,8 +40,11 @@
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
+    border: solid 1px orange;
+    border-radius: 15px;
     &:hover {
         color: #ffb866;
+        background-color: rgba(255, 255, 255, 0.2);
     }
 }
 
@@ -136,7 +139,7 @@
         height: 100px;
     }
 
-    .nav-item a {
+    .nav-link {
         text-decoration: none;
         color: white;
         font-size: 1rem;

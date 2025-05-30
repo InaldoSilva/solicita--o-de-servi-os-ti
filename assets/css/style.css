@@ -38,7 +38,7 @@ html {
     height: auto;
     width: 100%;
     height: auto;
-
+    
     background: #d4612c;
     background: -webkit-linear-gradient(169deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
     background: -moz-linear-gradient(169deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
@@ -53,12 +53,15 @@ html {
     width: auto;
 }
 
-.nav-item a {
+.nav-link {
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
+    border: solid 1px orange;
+    border-radius: 15px;
     &:hover {
         color: #ffb866;
+        background-color: rgba(255, 255, 255, 0.2);
     }
 }
 
@@ -118,9 +121,23 @@ html {
     margin: 2rem auto;
 }
 
+.ourPages a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .col-md-4 img{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0.4;
+    &:hover {
+        transform: scale(1.05);
+        transition: 0.3s ease-in-out;
+        opacity: 1;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width:767px) {
