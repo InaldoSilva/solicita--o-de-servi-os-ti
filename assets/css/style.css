@@ -37,7 +37,7 @@ html {
     top: 0;
     height: auto;
     width: 100%;
-    height: auto;
+    height: 80px;
     
     background: #d4612c;
     background: -webkit-linear-gradient(169deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
@@ -56,9 +56,9 @@ html {
 .nav-link {
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: solid 1px orange;
-    border-radius: 15px;
+    border-radius: 7px;
     &:hover {
         color: #ffb866;
         background-color: rgba(255, 255, 255, 0.2);
@@ -78,23 +78,13 @@ html {
     top: -5rem;
 }
 
-.ajuda {
-    display: flex;
-    justify-content: center;
-    margin: 4rem auto;
-}
-
-#ajuda-img {
-    width: 400px;
-}
-
 .ft {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 80px;
+    height: 150px;
 
     background: #d4612c;
     background: -webkit-linear-gradient(350deg, rgba(212, 97, 44, 1) 5%, rgba(199, 126, 87, 1) 32%, rgba(32, 60, 128, 1) 68%);
@@ -103,7 +93,7 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#D4612C", endColorstr="#203C80", GradientType=0);
     color: white;
     position: relative;
-    bottom: -2rem;
+    bottom: -5rem;
 }
 
 .ourPages {
@@ -151,7 +141,7 @@ html {
         align-items: center;
         width: 100%;
         height: 300px;
-        margin: -2rem auto;
+        margin: 2rem auto;
         position: relative;
         z-index: 0;
     }
@@ -194,19 +184,9 @@ html {
     .col-md-4 {
         margin-bottom: 2rem;
     }
-    
-    .ajuda {
-        display: flex;
-        justify-content: center;
-        margin: 2rem auto;
-    }
-    
-    #ajuda-img {
-        width: 300px;
-    }
 
     .rodape {
         position: relative;
-        bottom: -5rem;
+        bottom: 0;
     }
 }
